@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./index.css">
+ <title>Responsive shopping cart</title>
+</head>
+<body>
+  <div class="wrapper-big">
+ <nav class="navbar">
+  <div class="navbar-center">
+  <p class="nav-title">YinkaKitchen</p>
+   <div class="list">
+   <ul>
+    <li><a href="#hero" class="nav-list">About</a></li>
+    <li><a href="#featured"class="nav-list">featured product</a></li>
+    <li><a href="#products"class="nav-list">our menu</a></li>
+    <li><a href="#contactus"class="nav-list">contact us</a></li>
+  </ul>
+    </div>
+    <div class="overlay"></div>
+     <div class="menu-tab">
+  <div class="bar"></div>
+  </div>
+    <!--<div class="menu">
+      <div class="bar"></div>
+  </div>-->
+   <div class="cart-btn">
+   <span class="nav-icon"><i class=" fa fa-cart-plus"></i>
+</span>
+<div class="cart-items">0</div>
+  </div>
+ </div>
+ </nav>
+<header class="hero"id="hero">
+ <div class="banner">
+  <h1 class="banner-title">Welcome!</h1>
+  <p>We are so excited to have you here.please click the button below to learn more about us.</p>
+  <a href="#" class="banner-btn">About us</a>
+ </div>
+</header>
+<!--featured products-->
+<section id ="featured" class="products">
+  <h2>featured <span class="head">Products</span></h2>
+  <div class="items">
+    <article class="article">
+      <div class="img-container">
+       <img src="./img/dinner1.jpg" alt="product" class="product-img">
+       <button class="bag-btn"data-id="1">
+        <i class="fa fa-shopping-cart"></i>Add to bag
+      </div>
+       </article>
+    <article class="article">
+      <div class="img-container">
+       <img src="./img/dinner2.jpg" alt="product" class="product-img">
+       <button class="bag-btn"data-id="1">
+        <i class="fa fa-shopping-cart"></i>Add to bag
+      </div>
+    
+       </article>
+    <article class="article">
+      <div class="img-container">
+       <img src="./img/wine3.jpg" alt="product" class="product-img">
+       <button class="bag-btn"data-id="1">
+        <i class="fa fa-shopping-cart"></i>Add to bag
+      </div>
+       </article>
+
+    <article class="article">
+      <div class="img-container">
+       <img src="./img/coco.jpg" alt="product" class="product-img">
+       <button class="bag-btn"data-id="1">
+        <i class="fa fa-shopping-cart"></i>Add to bag
+      </div>
+     <!--<h3>cream</h3>
+      <h4>#1200</h4>--> 
+       </article>
+  </div>
+</section>
+ <!--products-->
+<section class="products" id="products">
+<div class="section-title">
+ <h2>Our <span class="heading">meals</span></h2>
+ <div class="button-container">
+  <!-- <button type="button" class="filter-btn active" data-view="all">all</button>
+  <button type="button" class="filter-btn" data-view="breakfast">breakfast</button>
+  <button type="button" class="filter-btn" data-view="lunch">lunch</button>
+  <button type="button" class="filter-btn" data-view="dinner">dinner</button>
+  <button type="button" class="filter-btn" data-view="drinks">drink</button> -->
+</div>
+</div>
+<div class="products-center">
+ <!--<article class="product">
+<div class="img-container">
+ <img src="./img/shakes1.jpg" alt="product" class="product-img">
+ 
+ </button>
+</div>
+<h3>milk shake</h3>
+<h4>#1200</h4>
+ </article>-->
+</div>
+</section>
+<!--cart -->
+<div class="cart-overlay">
+ <div class="cart">
+  <span class="close-cart">
+<i class="fa fa-window-close"></i></span>
+  <h2>your cart</h2>
+<div class="cart-content">
+</div>
+
+<div class="cart-footer">
+ <h3>Your total : # <span class="cart-total">0</span></h3>
+ <button class="clear-cart banner-btn">clear cart</button>
+ <button class="clear-cart banner-btn">pay</button>
+</div>
+</div>
+</div>
+
+
+<section id="contactus" class="products">
+  <div class="container">
+    <div class="form">
+    <div class="contact-info">    
+<h2 class="head-title">Please talk to us</h2>
+<p class="text">We love to hear from you everyday. 
+  <br>We are here to take your orders promptly and also make your experience with us a beautiful and amazing one. </p>
+<p class="pa">You can reach us via: </p>
+<div class="info">
+  <div class="information">
+    <img src="./img/location.png" class="icon">
+    <p>lorem street,agege,lagos.</p>
+  </div>
+  <div class="information">
+    <img src="./img/phone.png" class="icon">
+    <p>07055500011.</p></a>
+  </div>
+  <div class="information">
+    <img src="./img/email.png" class="icon">
+    <p class="p">melaninkitchen@gmail.com.</p>
+  </div>
+</div>
+<div class="social-media">
+  <p>connect with us</p>
+<div class="social-icons">
+  <a href="#"><i class="fa fa-twitter"></i></a>
+ <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-telegram"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+</div>
+</div>
+
+</div>
+<div class="contact-form">
+  <h3 class="contactus">contact us</h3>
+<form id="form">
+<div class="input-container"autocomplete="off">
+  <label for=""></label>
+<input type="text"class="input" name="name"placeholder="username"required/>
+</div>
+<div class="input-container">
+  <label for=""></label>
+<input type="email"class="input" name="email"placeholder="email"required/>
+</div>
+<div class="input-container">
+  <label for=""></label>
+<input type="number"class="input" name="phone"placeholder="phone number"required/>
+</div>
+<div class="input-container textarea">
+  <label for=""></label>
+<textarea name="message" id="" class="input"placeholder="please enter your message"required></textarea>
+</div>
+<input type="submit" value="Submit"class="btn">
+</form>
+</div>
+</div>
+</div>
+</section>
+<!--contact end-->
+<!--footer start-->
+<footer>
+  <p class ="middle">
+  &copy; <span class="date"></span> |MelaninKitchen |All rights reserved.</p>  
+  <a href="#hero"class="up">
+    <i class="fa fa-arrow-up"id="top-btn"></i></a>
+</footer>
+</div>
+<!--footer end-->
+ <script src="app.js"></script>
+</body>
+</html>

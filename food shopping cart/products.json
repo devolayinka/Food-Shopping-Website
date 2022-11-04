@@ -1,0 +1,130 @@
+{
+    "items": [
+        {
+            "sys": {"id":"1"},
+            "fields":{
+                "title":"pizza lala",
+                "price":"199.99",
+                "category":"breakfast",
+                "image":{"fields":{"file":{"url":"./img/breakfast1.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"2"},
+            "fields":{
+                "title":"cheesse salad",
+                "price":"299.99",
+                "category":"breakfast",
+                "image":{"fields":{"file":{"url":"./img/breakfast2.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"3"},
+            "fields":{
+                "title":" le famillia de vibes",
+                "price":"999.99",
+                "category":"dinner",
+                "image":{"fields":{"file":{"url":"./img/dinner1.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"4"},
+            "fields":{
+                "title":"pizza grande",
+                "price":"699.99",
+                "category":"dinner",
+                "image":{"fields":{"file":{"url":"./img/dinner2.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"5"},
+            "fields":{
+                "title":"vegetable salad",
+                "price":"499.99",
+                "category":"dinner",
+                "image":{"fields":{"file":{"url":"./img/dinner3.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"6"},
+            "fields":{
+                "title":"milk strewberry shake",
+                "price":"299.99",
+                "category":"shakes",
+                "image":{"fields":{"file":{"url":"./img/shakes1.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"7"},
+            "fields":{
+                "title":"cornflakes shake",
+                "price":"199.99",
+                "category":"shakes",
+                "image":{"fields":{"file":{"url":"./img/shakes2.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"8"},
+            "fields":{
+                "title":"watermelon smothies",
+                "price":"99.99",
+                "category":"shakes",
+                "image":{"fields":{"file":{"url":"./img/shakes4.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"9"},
+            "fields":{
+                "title":"cake",
+                "price":"1099.99",
+                "category":"lunch",
+                "image":{"fields":{"file":{"url":"./img/lunch1.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"10"},
+            "fields":{
+                "title":"mashed meat and egg",
+                "price":"999.99",
+                "category":"lunch",
+                "image":{"fields":{"file":{"url":"./img/lunch2.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"11"},
+            "fields":{
+                "title":"steak and vegetable",
+                "price":"999.99",
+                "category":"lunch",
+                "image":{"fields":{"file":{"url":"./img/lunch3.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"12"},
+            "fields":{
+                "title":"coconut drink",
+                "price":"499.99",
+                "category":"drinks",
+                "image":{"fields":{"file":{"url":"./img/coconut.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"13"},
+            "fields":{
+                "title":"icecream",
+                "price":"399.99",
+                "category":"shakes",
+                "image":{"fields":{"file":{"url":"./img/icecream.jpg"}}}
+            }
+        },
+        {
+            "sys": {"id":"14"},
+            "fields":{
+                "title":"orange drink",
+                "price":"199.99",
+                "category":"drinks",
+                "image":{"fields":{"file":{"url":"./img/orange.jpg"}}}
+            }
+        }
+    ]
+}

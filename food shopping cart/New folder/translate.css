@@ -1,0 +1,33 @@
+/*div{
+    width: 300px;
+    height:100px;
+    background-color:red;
+    border:1px solid black;
+}
+/*div#div{
+    transform:rotateX(180deg);
+    margin-top:10px;
+}
+div#div{
+    transform:rotateY(180deg);
+    margin-top:10px;
+}*/
+div{
+    width:300px;
+    height:100px;
+    background-color:brown;
+    padding:10px;
+    border:1px solid black;
+   /* transition: width 2s,height 2s;
+    -webkit-transition: width 2s,height 2s;
+    transition-timing-function: linear;*/
+    transition:width 2s linear 1s;
+}
+div:hover{
+    background-color:blue;
+    width:200px;
+   
+    
+}
+/*transition shorthand 
+width 2s linear 1s meaning transition-property,transition-duration,transition-timing function,transition-delay;

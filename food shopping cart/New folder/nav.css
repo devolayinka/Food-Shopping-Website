@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+span{
+    color:yellow;
+    font-size:1.2rem;
+}
+nav p{
+    font-size:2em;
+    position: absolute;
+    top:16px;
+    left:2%;
+    padding-left:40px;
+    color:white;
+}
+nav ul{
+    list-style-type: none;
+    overflow:hidden; background-color:#647973;
+    padding:10px 30px;
+    margin-top:10px;
+}
+li{
+    float:right;
+}
+li a{
+    padding:10px 25px;
+    display:inline-block;
+    text-transform:capitalize;
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:#647973;
+    background-color:white;
+}

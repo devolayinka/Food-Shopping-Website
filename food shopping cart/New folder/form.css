@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+div{
+    width:80%;
+    margin-top:20px;
+    margin-left:20px;
+    background:rgb(243, 239, 239);
+    padding:20px;
+  
+}
+label{
+    margin:10px;
+}
+input[type="text"],select{
+ width:100%;
+  padding:10px;
+  margin:10px;
+  display:inline-block;
+  cursor:pointer;
+  border:1px solid green;
+  outline:none;  
+  border-radius:5px;
+}
+input[type="text"]:focus{
+    border:2px solid rgb(196, 173, 173);
+  
+}
+input[type="submit"]{
+    width:100%;
+    padding:10px;
+    margin:10px;
+    background:rgb(68, 156, 68);
+    color:white;
+    font-size:20px;
+    outline:none;
+    cursor:pointer;
+    border-radius:5px;
+    border:none;
+}
+::placeholder{
+    font-style:italic;
+    color:green;
+}
+input[type="submit"]:hover{
+    background:rgb(14, 173, 14); 
+}
+
+

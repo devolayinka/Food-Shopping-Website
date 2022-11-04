@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formm.css">
+</head>
+<body>
+    <h4>form page involving rows and colum and its responsive</h4>
+    <div class="container">
+        <form action="">
+        <div class="row">
+            <div class="col-25">
+            <label for="fname">First Name</label>
+        </div>
+    <div class="col-75">
+        <input type="text" name="fname" id="fname"placeholder="your firstname please"required>
+    </div>
+    </div>
+
+        <div class="row">
+            <div class="col-25">
+            <label for="lname">Last Name</label>
+        </div>
+    <div class="col-75">
+        <input type="text" name="lastname" id="lname"placeholder="your lastname please"required>
+    </div>
+    </div>
+    
+        <div class="row">
+            <div class="col-25">
+            <label for="pword">Password</label>
+        </div>
+    <div class="col-75">
+        <input type="password" name="pword" id="pword"placeholder="your password please" required>
+    </div>
+    </div>
+
+        <div class="row">
+            <div class="col-25">
+            <label for="country">Country</label>
+        </div>
+    <div class="col-75">
+        <select name="country" id="country">
+            <option value="ng">Nigeria</option>
+            <option value="ld">London</option>
+            <option value="ca">Canada</option>
+        </select>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-25">
+        <label for="sub">Subject</label>
+    </div>
+<div class="col-75">
+    <textarea name="sub" id="sub" cols="30" rows="10"
+    placeholder="Enter message please"></textarea>
+</div>
+</div>
+<div class="row">
+    <input type="submit" name="submit" id="submit">
+</div>
+</form>
+    </div>
+</body>
+</html>
